@@ -3,7 +3,7 @@
 My web portfolio to share my latest projects and professional experience as a software engineer.
 
 
-*Developing the very best with right amount of fun* 
+*Developing the very best with the right amount of fun* 
 
 
 
