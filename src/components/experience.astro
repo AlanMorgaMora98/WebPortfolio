@@ -1,6 +1,61 @@
-const { jobTitle, job, modalidad, period, descriptionList, } = Astro.props
+---
+import workExperience from '../data/experience.json'
+---
 
-<div class="experience">
-    <header>{jobTitle}</header>
-    <h1></h1>
+
+<div class="experienceComponent">
+	<ul>
+		{workExperience.workExperiences.map((experience) => (
+		<li class="jobMarker">
+			<h3><b>{experience.jobTitle}</b> - {experience.companyName}</h3>
+			<h4>{experience.jobStartDate} - {experience.jobEndDate}</h4>
+
+			<ul>
+			{experience.keyReponsabilities.map((responsability) => (
+				
+				<li class="responsabilityMarker"><p>{responsability}</p></li>
+			))}
+			</ul>
+		</li>
+		))}
+	</ul>
+	<bold></bold>
 </div>
+
+<style>
+
+	.experienceComponent {
+		--font-title: "Bungee Hairline", sans-serif;
+		--font-text: "Space Mono", sans-serif;
+		--primary-color: #5ad689;
+		--secondary-color: #531b79; 
+		--accent-color: #770d0d;
+		--text-color: #d4e5e1;
+		max-width: 50vw;
+	}
+
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: var(--font-title);
+	}
+
+	p {
+		font-family: var(--font-text);
+	}
+
+
+
+    ul {
+		list-style-image: url("../assets/Polygon.svg");
+	}
+
+	li::marker {
+		font-size: 36px; 
+	}
+
+	b {
+		//color: var(--primary-color);
+		font-weight: 900;
+	}
+
+</style>

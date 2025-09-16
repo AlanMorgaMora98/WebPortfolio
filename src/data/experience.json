@@ -1,0 +1,50 @@
+{
+    "workExperiences": [
+        {
+            "jobTitle": "Full Stack Sofware Developer",
+            "companyName": "Egate International",
+            "jobStartDate": "January 2023",
+            "jobEndDate": "Present",
+            "keyReponsabilities": [
+
+                "Integré mapas interactivos con Leaflet para el seguimiento de transporte y mercancía mediante coordenadas, mejorando la visibilidad y gestión logística.",
+
+                "Automatice reportes financieros con métricas clave, optimizando el análisis de datos en tiempo real y reduciendo el tiempo de gestión administrativa en más del 95%.",
+
+                "Implementé APIs serverless en AWS, reduciendo el tiempo de desarrollo y despliegue de cambios. ",
+
+                "Creé add-ons para Gmail y Outlook, mejorando la gestión de archivos, agilizando los flujos de trabajo en un 60%."
+
+            ]
+        },
+        {
+            "jobTitle": "Full Stack Software Developer (Internship)",
+            "companyName": "Fairwind Group",
+            "jobStartDate": "August 2022",
+            "jobEndDate": "December 2022",
+            "keyReponsabilities": [
+
+                "Desarrollé reportes de Key Performance Indicators para el seguimiento de operaciones aduaneras, obteniendo métricas en gráficas dinámicas y análisis por periodos de tiempo.",
+
+                "Lideré el proceso de documentación y diseño de reportes, elaborando modelos de casos de uso, diagramas de actividad y diagramas de robustez, asegurando una arquitectura estructurada y eficiente.",
+
+                "Diseñé prototipos de alta fidelidad para la interfaz de usuario de los reportes utilizando Figma, asegurando una experiencia visual intuitiva y alineada con los requisitos del usuario."
+
+            ]
+        },
+        {
+            "jobTitle": "Software Developer (Internship)",
+            "companyName": "Software Innovation Lab, Universidad Veracruzana",
+            "jobStartDate": "August 2021",
+            "jobEndDate": "March 2022",
+            "keyReponsabilities": [
+
+                "Implementé Docker para estandarizar el proceso de despliegue, reduciendo el consumo de recursos de hardware y automatizando pruebas, lo que mejoró la eficiencia en un 70% y eliminó errores de configuración.",
+
+                "Diseñe e implemente un módulo de administración de usuarios que permite la gestión de permisos de manera eficiente desde la interfaz de usuario."
+                
+            ]
+        }
+
+    ]
+}
