@@ -4,22 +4,29 @@ import workExperience from '../data/experience.json'
 
 
 <div class="experienceComponent">
-	<ul>
-		{workExperience.workExperiences.map((experience) => (
-		<li class="jobMarker">
-			<h3><b>{experience.jobTitle}</b> - {experience.companyName}</h3>
-			<h4>{experience.jobStartDate} - {experience.jobEndDate}</h4>
 
-			<ul>
-			{experience.keyReponsabilities.map((responsability) => (
-				
-				<li class="responsabilityMarker"><p>{responsability}</p></li>
-			))}
-			</ul>
-		</li>
+	<h2>Work Experience</h2>
+
+	<p>
+		A suummary of my work achievements
+	</p>
+
+	
+	<section class="timeline">	
+		{workExperience.workExperiences.map((experience) => (
+			<div class="timeline-item">
+				<h3><b>{experience.jobTitle}</b> - {experience.companyName}</h3>
+				<h4>{experience.jobStartDate} - {experience.jobEndDate}</h4>
+
+				<ul>
+				{experience.keyReponsabilities.map((responsability) => (
+					
+					<li class="responsabilityMarker"><p>{responsability}</p></li>
+				))}
+				</ul>
+			</div>
 		))}
-	</ul>
-	<bold></bold>
+	</section>
 </div>
 
 <style>
@@ -31,9 +38,9 @@ import workExperience from '../data/experience.json'
 		--secondary-color: #531b79; 
 		--accent-color: #770d0d;
 		--text-color: #d4e5e1;
-		max-width: 50vw;
+		max-width: 750px;
+		justify-self: center;
 	}
-
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: var(--font-title);
@@ -43,19 +50,42 @@ import workExperience from '../data/experience.json'
 		font-family: var(--font-text);
 	}
 
-
-
     ul {
 		list-style-image: url("../assets/Polygon.svg");
+		padding-left: 30px;
 	}
 
 	li::marker {
-		font-size: 36px; 
+		font-size: 30px; 
 	}
 
 	b {
 		//color: var(--primary-color);
 		font-weight: 900;
+	}
+
+	.timeline {
+		position: relative;
+		margin: 20px auto;
+		border-left: 3px solid;
+		border-image: linear-gradient(to bottom, var(--secondary-color), var(--primary-color));
+ 		border-image-slice: 1;
+	}
+
+	.timeline-item {
+		margin: 20px 0;
+		padding-left: 20px;
+		position: relative;
+	}
+
+	.timeline-item::before {
+		content: "";
+		position: absolute;
+		left: -9px;
+		width: 15px;
+		height: 15px;
+		background: var(--accent-color);
+		border-radius: 50%;
 	}
 
 </style>

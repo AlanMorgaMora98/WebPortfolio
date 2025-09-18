@@ -13,35 +13,32 @@ import Experience from "./WorkExperience.astro";
 				LOGO
 			</a>
 
-			<!-- <a href="#aboutMe">
-				Sobre Mi
-			</a> -->
-
 			<a href="#experience">
-				Experiencia
+				Experience
 			</a>
 
 			<a href="#projects">
-				Proyectos
+				Projects
 			</a>
+
 		</div>
 
 		<div class="links">
-			<a href="https://www.linkedin.com/in/alanmorgado/" target="_blank">
+			<a href="https://www.linkedin.com/in/alanmorgado/" target="_blank" aria-label="LinkedIn">
 				<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
 					<rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/>
 				</svg>
 			</a>
 
-			<a href="https://github.com/AlanMorgaMora98" target="_blank">
+			<a href="https://github.com/AlanMorgaMora98" target="_blank" aria-label="Github">
 				<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-. 17.6-.22 1.23-.15 1.85v4"/>
 					<path d="M9 18c-4.51 2-5-2-7-2"/>
 				</svg>
 			</a>
 
-			<a href="mailto:alanmorgadomora@gmail.com">
+			<a href="mailto:alanmorgadomora@gmail.com" aria-label="Send email to Alan">
 
 				<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<rect width="20" height="16" x="2" y="4" rx="2"/>
@@ -75,7 +72,7 @@ import Experience from "./WorkExperience.astro";
 						View My Work
 					</a>
 
-					<a class="contactMe" href="mailto:alanmorgadomora@gmail.com">
+					<a class="contactMe" href="mailto:alanmorgadomora@gmail.com" aria-label="Contact Alan by email">
 						Contact me
 					</a>
 				</div>
@@ -93,12 +90,12 @@ import Experience from "./WorkExperience.astro";
 				
 				<div class="cardInformationSection">
 
-					<Image class="avatar" src={alanAvatar} alt="Alan's avatar" />
+					<Image class="avatar" src={alanAvatar} alt="Alan's avatar" loading="eager"/>
 
 					<p>Alan Adair Morgado Morales</p>
 
 					<div class="cardInformationSubsection">
-						<a class="iconScale" href="https://github.com/AlanMorgaMora98" target="_blank">
+						<a class="iconScale" href="https://github.com/AlanMorgaMora98" target="_blank" aria-label="LinkedIn">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M23 9V15H22V17H21V19H20V20H19V21H18V22H16V23H15V18H14V17H15V16H17V15H18V14H19V9H18V6H16V7H15V8H14V7H10V8H9V7H8V6H6V9H5V14H6V15H7V16H9V18H7V17H6V16H4V17H5V19H6V20H9V23H8V22H6V21H5V20H4V19H3V17H2V15H1V9H2V7H3V5H4V4H5V3H7V2H9V1H15V2H17V3H19V4H20V5H21V7H22V9H23Z" fill="url(#paint0_linear_349_3933)"/>
 								<defs>
@@ -110,7 +107,7 @@ import Experience from "./WorkExperience.astro";
 							</svg>
 						</a>
 
-						<a class="iconScale" href="https://www.linkedin.com/in/alanmorgado/" target="_blank">
+						<a class="iconScale" href="https://www.linkedin.com/in/alanmorgado/" target="_blank" aria-label="Github">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M22 2V1H2V2H1V22H2V23H22V22H23V2H22ZM13 12V20H10V9H13V10H14V9H18V10H19V20H16V12H13ZM4 8V5H7V8H4ZM7 9V20H4V9H7Z" fill="url(#paint0_linear_349_3934)"/>
 								<defs>
@@ -122,7 +119,7 @@ import Experience from "./WorkExperience.astro";
 							</svg>
 						</a>
 
-						<a class="iconScale" href="mailto:alanmorgadomora@gmail.com">
+						<a class="iconScale" href="mailto:alanmorgadomora@gmail.com" aria-label="Send email to Alan">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M21 5V4H3V5H1V19H2V20H22V19H23V5H21ZM10 12V11H9V10H8V9H7V8H6V7H5V6H19V7H18V8H17V9H16V10H15V11H14V12H13V13H11V12H10ZM4 7V8H5V9H6V10H7V11H8V12H9V13H10V14H11V15H13V14H14V13H15V12H16V11H17V10H18V9H19V8H20V7H21V18H3V7H4Z" fill="url(#paint0_linear_349_3932)"/>
 								<defs>
@@ -150,7 +147,7 @@ import Experience from "./WorkExperience.astro";
 					<p style="text-align: center">Location</p>
 
 					<svg class="locationCountry" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-						<path opacity="0.5" fill="#531b79" d="M0 4h.8v.8H0zM.8 4h.8v.8h-.8zM1.6 4h.8v.8h-.8zM2.4 4h.8v.8h-.8zM2.4 4.8h.8v.8h-.8zM3.2 4.8h.8v.8h-.8zM3.2 5.6h.8v.8h-.8zM4 5.6h.8v.8H4zM4.8 5.6h.8v.8h-.8zM5.6 5.6h.8v.8h-.8zM6.4 5.6h.8v.8h-.8zM6.4 4.8h.8v.8h-.8zM7.2 4.8h.8v.8h-.8zM7.2 5.6h.8v.8h-.8zM8 5.6h.8v.8H8zM3.2 6.4h.8v.8h-.8zM4 6.4h.8v.8H4zM4.8 6.4h.8v.8h-.8zM5.6 6.4h.8v.8h-.8zM6.4 6.4h.8v.8h-.8zM7.2 6.4h.8v.8h-.8zM8 6.4h.8v.8H8zM4 7.2h.8v.8H4zM4.8 7.2h.8v.8h-.8zM5.6 7.2h.8v.8h-.8zM6.4 7.2h.8v.8h-.8zM7.2 7.2h.8v.8h-.8zM8 7.2h.8v.8H8zM4.8 8h.8v.8h-.8zM5.6 8h.8v.8h-.8zM6.4 8h.8v.8h-.8zM7.2 8h.8v.8h-.8zM8 8h.8v.8H8zM8.8 7.2h.8v.8h-.8zM8.8 8h.8v.8h-.8zM4.8 8.8h.8v.8h-.8zM5.6 8.8h.8v.8h-.8zM6.4 8.8h.8v.8h-.8zM7.2 8.8h.8v.8h-.8zM8 8.8h.8v.8H8zM8.8 8.8h.8v.8h-.8zM5.6 9.6h.8v.8h-.8zM6.4 9.6h.8v.8h-.8zM7.2 9.6h.8v.8h-.8zM8 9.6h.8v.8H8zM8.8 9.6h.8v.8h-.8zM9.6 8h.8v.8h-.8zM10.4 8h.8v.8h-.8zM10.4 7.2h.8v.8h-.8zM11.2 7.2h.8v.8h-.8zM11.2 8h.8v.8h-.8zM12 8h.8v.8H12zM9.6 8.8h.8v.8h-.8zM10.4 8.8h.8v.8h-.8zM11.2 8.8h.8v.8h-.8zM12 8.8h.8v.8H12zM12.8 8.8h.8v.8h-.8zM9.6 9.6h.8v.8h-.8zM10.4 9.6h.8v.8h-.8zM11.2 9.6h.8v.8h-.8zM12 9.6h.8v.8H12zM12.8 9.6h.8v.8h-.8zM6.4 10.4h.8v.8h-.8zM6.4 11.2h.8v.8h-.8zM7.2 11.2h.8v.8h-.8zM7.2 12h.8v.8h-.8zM8 12h.8v.8H8zM8 12.8h.8v.8H8zM8.8 12h.8v.8h-.8zM8.8 12.8h.8v.8h-.8zM8.8 13.6h.8v.8h-.8zM8.8 14.4h.8v.8h-.8zM8 15.2h.8v.8H8zM8.8 15.2h.8v.8h-.8zM9.6 14.4h.8v.8h-.8zM10.4 14.4h.8v.8h-.8zM11.2 14.4h.8v.8h-.8zM12 14.4h.8v.8H12zM12.8 14.4h.8v.8h-.8zM13.6 14.4h.8v.8h-.8zM14.4 14.4h.8v.8h-.8zM9.6 15.2h.8v.8h-.8zM10.4 15.2h.8v.8h-.8zM11.2 15.2h.8v.8h-.8zM12 15.2h.8v.8H12zM12.8 15.2h.8v.8h-.8zM13.6 15.2h.8v.8h-.8zM14.4 15.2h.8v.8h-.8zM15.2 15.2h.8v.8h-.8zM8.8 16h.8v.8h-.8zM9.6 16h.8v.8h-.8zM10.4 16h.8v.8h-.8zM11.2 16h.8v.8h-.8zM12 16h.8v.8H12zM12.8 16h.8v.8h-.8zM13.6 16h.8v.8h-.8zM14.4 16h.8v.8h-.8zM15.2 16h.8v.8h-.8zM9.6 16.8h.8v.8h-.8zM10.4 16.8h.8v.8h-.8zM11.2 16.8h.8v.8h-.8zM12 16.8h.8v.8H12zM12.8 16.8h.8v.8h-.8zM13.6 16.8h.8v.8h-.8zM14.4 16.8h.8v.8h-.8zM15.2 16.8h.8v.8h-.8zM11.2 17.6h.8v.8h-.8zM12 17.6h.8v.8H12zM12.8 17.6h.8v.8h-.8zM13.6 17.6h.8v.8h-.8zM14.4 17.6h.8v.8h-.8zM14.4 18.4h.8v.8h-.8zM15.2 17.6h.8v.8h-.8zM15.2 18.4h.8v.8h-.8zM16 17.6h.8v.8h-.8zM16 18.4h.8v.8h-.8zM16.8 17.6h.8v.8h-.8zM16 16.8h.8v.8h-.8zM16.8 16.8h.8v.8h-.8zM17.6 17.6h.8v.8h-.8zM18.4 17.6h.8v.8h-.8zM17.6 16.8h.8v.8h-.8zM18.4 16.8h.8v.8h-.8zM19.2 17.6h.8v.8h-.8zM20 17.6h.8v.8h-.8zM18.4 18.4h.8v.8h-.8zM19.2 18.4h.8v.8h-.8zM19.2 19.2h.8v.8h-.8zM20 18.4h.8v.8h-.8zM19.2 16.8h.8v.8h-.8zM20 16.8h.8v.8h-.8zM20.8 16.8h.8v.8h-.8zM20.8 16h.8v.8h-.8zM20.8 15.2h.8v.8h-.8zM20.8 14.4h.8v.8h-.8zM21.6 16h.8v.8h-.8zM21.6 15.2h.8v.8h-.8zM21.6 14.4h.8v.8h-.8zM21.6 13.6h.8v.8h-.8zM22.4 16h.8v.8h-.8zM22.4 15.2h.8v.8h-.8zM23.2 15.2h.8v.8h-.8zM22.4 14.4h.8v.8h-.8zM23.2 14.4h.8v.8h-.8zM22.4 13.6h.8v.8h-.8zM23.2 13.6h.8v.8h-.8zM9.6 12.8h.8v.8h-.8zM9.6 13.6h.8v.8h-.8zM10.4 13.6h.8v.8h-.8zM11.2 13.6h.8v.8h-.8zM12 13.6h.8v.8H12zM12.8 13.6h.8v.8h-.8zM13.6 13.6h.8v.8h-.8zM10.4 12.8h.8v.8h-.8zM11.2 12.8h.8v.8h-.8zM12 12.8h.8v.8H12zM12.8 12.8h.8v.8h-.8zM13.6 12.8h.8v.8h-.8zM9.6 12h.8v.8h-.8zM10.4 12h.8v.8h-.8zM11.2 12h.8v.8h-.8zM12 12h.8v.8H12zM12.8 12h.8v.8h-.8zM13.6 12h.8v.8h-.8zM8 11.2h.8v.8H8zM8.8 11.2h.8v.8h-.8zM9.6 11.2h.8v.8h-.8zM10.4 11.2h.8v.8h-.8zM11.2 11.2h.8v.8h-.8zM12 11.2h.8v.8H12zM12.8 11.2h.8v.8h-.8zM13.6 11.2h.8v.8h-.8zM7.2 10.4h.8v.8h-.8zM8 10.4h.8v.8H8zM8.8 10.4h.8v.8h-.8zM9.6 10.4h.8v.8h-.8zM10.4 10.4h.8v.8h-.8zM11.2 10.4h.8v.8h-.8zM12 10.4h.8v.8H12zM12.8 10.4h.8v.8h-.8zM13.6 10.4h.8v.8h-.8zM.8 4.8h.8v.8h-.8zM.8 5.6h.8v.8h-.8zM.8 6.4h.8v.8h-.8zM1.6 6.4h.8v.8h-.8zM1.6 7.2h.8v.8h-.8zM2.4 8h.8v.8h-.8zM2.4 8.8h.8v.8h-.8zM3.2 10.4h.8v.8h-.8zM3.2 9.6h.8v.8h-.8zM4 11.2h.8v.8H4zM4.8 12h.8v.8h-.8zM1.6 7.2h.8v.8h-.8z"/>
+						<path opacity="0.5" fill="currentColor" d="M0 4h.8v.8H0zM.8 4h.8v.8h-.8zM1.6 4h.8v.8h-.8zM2.4 4h.8v.8h-.8zM2.4 4.8h.8v.8h-.8zM3.2 4.8h.8v.8h-.8zM3.2 5.6h.8v.8h-.8zM4 5.6h.8v.8H4zM4.8 5.6h.8v.8h-.8zM5.6 5.6h.8v.8h-.8zM6.4 5.6h.8v.8h-.8zM6.4 4.8h.8v.8h-.8zM7.2 4.8h.8v.8h-.8zM7.2 5.6h.8v.8h-.8zM8 5.6h.8v.8H8zM3.2 6.4h.8v.8h-.8zM4 6.4h.8v.8H4zM4.8 6.4h.8v.8h-.8zM5.6 6.4h.8v.8h-.8zM6.4 6.4h.8v.8h-.8zM7.2 6.4h.8v.8h-.8zM8 6.4h.8v.8H8zM4 7.2h.8v.8H4zM4.8 7.2h.8v.8h-.8zM5.6 7.2h.8v.8h-.8zM6.4 7.2h.8v.8h-.8zM7.2 7.2h.8v.8h-.8zM8 7.2h.8v.8H8zM4.8 8h.8v.8h-.8zM5.6 8h.8v.8h-.8zM6.4 8h.8v.8h-.8zM7.2 8h.8v.8h-.8zM8 8h.8v.8H8zM8.8 7.2h.8v.8h-.8zM8.8 8h.8v.8h-.8zM4.8 8.8h.8v.8h-.8zM5.6 8.8h.8v.8h-.8zM6.4 8.8h.8v.8h-.8zM7.2 8.8h.8v.8h-.8zM8 8.8h.8v.8H8zM8.8 8.8h.8v.8h-.8zM5.6 9.6h.8v.8h-.8zM6.4 9.6h.8v.8h-.8zM7.2 9.6h.8v.8h-.8zM8 9.6h.8v.8H8zM8.8 9.6h.8v.8h-.8zM9.6 8h.8v.8h-.8zM10.4 8h.8v.8h-.8zM10.4 7.2h.8v.8h-.8zM11.2 7.2h.8v.8h-.8zM11.2 8h.8v.8h-.8zM12 8h.8v.8H12zM9.6 8.8h.8v.8h-.8zM10.4 8.8h.8v.8h-.8zM11.2 8.8h.8v.8h-.8zM12 8.8h.8v.8H12zM12.8 8.8h.8v.8h-.8zM9.6 9.6h.8v.8h-.8zM10.4 9.6h.8v.8h-.8zM11.2 9.6h.8v.8h-.8zM12 9.6h.8v.8H12zM12.8 9.6h.8v.8h-.8zM6.4 10.4h.8v.8h-.8zM6.4 11.2h.8v.8h-.8zM7.2 11.2h.8v.8h-.8zM7.2 12h.8v.8h-.8zM8 12h.8v.8H8zM8 12.8h.8v.8H8zM8.8 12h.8v.8h-.8zM8.8 12.8h.8v.8h-.8zM8.8 13.6h.8v.8h-.8zM8.8 14.4h.8v.8h-.8zM8 15.2h.8v.8H8zM8.8 15.2h.8v.8h-.8zM9.6 14.4h.8v.8h-.8zM10.4 14.4h.8v.8h-.8zM11.2 14.4h.8v.8h-.8zM12 14.4h.8v.8H12zM12.8 14.4h.8v.8h-.8zM13.6 14.4h.8v.8h-.8zM14.4 14.4h.8v.8h-.8zM9.6 15.2h.8v.8h-.8zM10.4 15.2h.8v.8h-.8zM11.2 15.2h.8v.8h-.8zM12 15.2h.8v.8H12zM12.8 15.2h.8v.8h-.8zM13.6 15.2h.8v.8h-.8zM14.4 15.2h.8v.8h-.8zM15.2 15.2h.8v.8h-.8zM8.8 16h.8v.8h-.8zM9.6 16h.8v.8h-.8zM10.4 16h.8v.8h-.8zM11.2 16h.8v.8h-.8zM12 16h.8v.8H12zM12.8 16h.8v.8h-.8zM13.6 16h.8v.8h-.8zM14.4 16h.8v.8h-.8zM15.2 16h.8v.8h-.8zM9.6 16.8h.8v.8h-.8zM10.4 16.8h.8v.8h-.8zM11.2 16.8h.8v.8h-.8zM12 16.8h.8v.8H12zM12.8 16.8h.8v.8h-.8zM13.6 16.8h.8v.8h-.8zM14.4 16.8h.8v.8h-.8zM15.2 16.8h.8v.8h-.8zM11.2 17.6h.8v.8h-.8zM12 17.6h.8v.8H12zM12.8 17.6h.8v.8h-.8zM13.6 17.6h.8v.8h-.8zM14.4 17.6h.8v.8h-.8zM14.4 18.4h.8v.8h-.8zM15.2 17.6h.8v.8h-.8zM15.2 18.4h.8v.8h-.8zM16 17.6h.8v.8h-.8zM16 18.4h.8v.8h-.8zM16.8 17.6h.8v.8h-.8zM16 16.8h.8v.8h-.8zM16.8 16.8h.8v.8h-.8zM17.6 17.6h.8v.8h-.8zM18.4 17.6h.8v.8h-.8zM17.6 16.8h.8v.8h-.8zM18.4 16.8h.8v.8h-.8zM19.2 17.6h.8v.8h-.8zM20 17.6h.8v.8h-.8zM18.4 18.4h.8v.8h-.8zM19.2 18.4h.8v.8h-.8zM19.2 19.2h.8v.8h-.8zM20 18.4h.8v.8h-.8zM19.2 16.8h.8v.8h-.8zM20 16.8h.8v.8h-.8zM20.8 16.8h.8v.8h-.8zM20.8 16h.8v.8h-.8zM20.8 15.2h.8v.8h-.8zM20.8 14.4h.8v.8h-.8zM21.6 16h.8v.8h-.8zM21.6 15.2h.8v.8h-.8zM21.6 14.4h.8v.8h-.8zM21.6 13.6h.8v.8h-.8zM22.4 16h.8v.8h-.8zM22.4 15.2h.8v.8h-.8zM23.2 15.2h.8v.8h-.8zM22.4 14.4h.8v.8h-.8zM23.2 14.4h.8v.8h-.8zM22.4 13.6h.8v.8h-.8zM23.2 13.6h.8v.8h-.8zM9.6 12.8h.8v.8h-.8zM9.6 13.6h.8v.8h-.8zM10.4 13.6h.8v.8h-.8zM11.2 13.6h.8v.8h-.8zM12 13.6h.8v.8H12zM12.8 13.6h.8v.8h-.8zM13.6 13.6h.8v.8h-.8zM10.4 12.8h.8v.8h-.8zM11.2 12.8h.8v.8h-.8zM12 12.8h.8v.8H12zM12.8 12.8h.8v.8h-.8zM13.6 12.8h.8v.8h-.8zM9.6 12h.8v.8h-.8zM10.4 12h.8v.8h-.8zM11.2 12h.8v.8h-.8zM12 12h.8v.8H12zM12.8 12h.8v.8h-.8zM13.6 12h.8v.8h-.8zM8 11.2h.8v.8H8zM8.8 11.2h.8v.8h-.8zM9.6 11.2h.8v.8h-.8zM10.4 11.2h.8v.8h-.8zM11.2 11.2h.8v.8h-.8zM12 11.2h.8v.8H12zM12.8 11.2h.8v.8h-.8zM13.6 11.2h.8v.8h-.8zM7.2 10.4h.8v.8h-.8zM8 10.4h.8v.8H8zM8.8 10.4h.8v.8h-.8zM9.6 10.4h.8v.8h-.8zM10.4 10.4h.8v.8h-.8zM11.2 10.4h.8v.8h-.8zM12 10.4h.8v.8H12zM12.8 10.4h.8v.8h-.8zM13.6 10.4h.8v.8h-.8zM.8 4.8h.8v.8h-.8zM.8 5.6h.8v.8h-.8zM.8 6.4h.8v.8h-.8zM1.6 6.4h.8v.8h-.8zM1.6 7.2h.8v.8h-.8zM2.4 8h.8v.8h-.8zM2.4 8.8h.8v.8h-.8zM3.2 10.4h.8v.8h-.8zM3.2 9.6h.8v.8h-.8zM4 11.2h.8v.8H4zM4.8 12h.8v.8h-.8zM1.6 7.2h.8v.8h-.8z"/>
 					</svg>
 					
 				</div>
@@ -227,6 +224,70 @@ import Experience from "./WorkExperience.astro";
 							<path fill="url(#SVGGmCt8clO)" d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.67 5.67 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.6 11.6 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.5 15.5 0 0 0 1.875-7.41a15.6 15.6 0 0 0-.734-4.735m0 0"/>
 						</svg>
 						<span class="tooltip-text">Astro</span>
+						</span>
+
+						<span class="tooltip">
+						<svg class="cardIcons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 96 96" fill="none">
+							<g clip-path="url(#clip0_4303_1230)">
+							<g clip-path="url(#clip1_4303_1230)">
+							<path d="M96.0016 48.0011C96.0016 45.5393 95.3536 43.121 94.1227 40.9891L77.3861 12.0003C75.9566 9.52431 73.9207 7.52383 71.5274 6.14258L48.1565 45.9295C47.7929 46.5592 47.6016 47.2734 47.6016 48.0005C47.6016 48.7274 47.7929 49.4416 48.1563 50.0711L71.5252 89.8588C73.9182 88.4781 75.954 86.4782 77.3838 84.003L94.1234 55.0119C95.3538 52.8802 96.0016 50.4623 96.0016 48.0011Z" fill="url(#paint0_linear_4303_1230)"/>
+							<path d="M96.0016 48.0011C96.0016 45.5393 95.3536 43.121 94.1227 40.9891L77.3861 12.0003C75.9566 9.52431 73.9207 7.52383 71.5274 6.14258L48.1565 45.9295C47.7929 46.5592 47.6016 47.2734 47.6016 48.0005C47.6016 48.7274 47.7929 49.4416 48.1563 50.0711L71.5252 89.8588C73.9182 88.4781 75.954 86.4782 77.3838 84.003L94.1234 55.0119C95.3538 52.8802 96.0016 50.4623 96.0016 48.0011Z" fill="url(#paint1_linear_4303_1230)"/>
+							<path d="M64.6759 49.9994L56.5938 64.0002L57.2949 72.1437L65.9961 80.2873L75.2345 64.2885L75.239 64.2879L83.4475 50.0703C83.8111 49.4406 84.0025 48.7264 84.0025 47.9993C84.0025 47.2723 83.8111 46.559 83.4475 45.9294L75.239 31.7118L75.2345 31.7112L65.9961 15.7124L57.2949 23.8559L56.5938 31.9995L64.6758 45.9998C65.3902 47.2373 65.3902 48.7619 64.6759 49.9994Z" fill="#D9D9D9"/>
+							<path d="M64.6759 49.9994L56.5938 64.0002L57.2949 72.1437L65.9961 80.2873L75.2345 64.2885L75.239 64.2879L83.4475 50.0703C83.8111 49.4406 84.0025 48.7264 84.0025 47.9993C84.0025 47.2723 83.8111 46.559 83.4475 45.9294L75.239 31.7118L75.2345 31.7112L65.9961 15.7124L57.2949 23.8559L56.5938 31.9995L64.6758 45.9998C65.3902 47.2373 65.3902 48.7619 64.6759 49.9994Z" fill="url(#paint2_linear_4303_1230)"/>
+							<path d="M32.638 91.9999H63.5272C66.3838 91.9999 69.132 91.2383 71.5235 89.8584L48.5546 50.0707C48.1912 49.4411 47.9999 48.727 47.9999 48.0001L23.9999 47.6001L-0.00012207 48.0006C-0.00012207 50.27 0.597144 52.4995 1.73166 54.465L18.7816 83.9999C21.6398 88.9503 26.9218 91.9999 32.638 91.9999Z" fill="url(#paint3_linear_4303_1230)"/>
+							<path d="M32.638 91.9999H63.5272C66.3838 91.9999 69.132 91.2383 71.5235 89.8584L48.5546 50.0707C48.1912 49.4411 47.9999 48.727 47.9999 48.0001L23.9999 47.6001L-0.00012207 48.0006C-0.00012207 50.27 0.597144 52.4995 1.73166 54.465L18.7816 83.9999C21.6398 88.9503 26.9218 91.9999 32.638 91.9999Z" fill="url(#paint4_linear_4303_1230)"/>
+							<path d="M12.5547 50.0709C12.1913 49.4413 12 48.7268 12 47.9999L20.9889 47.5999L29.9779 47.9999C29.9778 48.6904 30.1564 49.3809 30.5135 49.9997L47.8298 80.0001H32.1399C30.7107 80.0001 29.3902 79.2376 28.6757 77.9999L12.5547 50.0709Z" fill="url(#paint5_linear_4303_1230)"/>
+							<path d="M32.641 4H63.5281C66.3853 4 69.1341 4.76192 71.5259 6.1423L48.5549 45.9293C48.1914 46.5589 48 47.2732 48 48.0002L0 48.0007C8.63496e-05 45.731 0.597573 43.5009 1.73242 41.5353L18.7846 12C21.6427 7.04958 26.9248 4 32.641 4Z" fill="url(#paint6_linear_4303_1230)"/>
+							<path d="M32.641 4H63.5281C66.3853 4 69.1341 4.76192 71.5259 6.1423L48.5549 45.9293C48.1914 46.5589 48 47.2732 48 48.0002L0 48.0007C8.63496e-05 45.731 0.597573 43.5009 1.73242 41.5353L18.7846 12C21.6427 7.04958 26.9248 4 32.641 4Z" fill="url(#paint7_linear_4303_1230)"/>
+							<path d="M12 48H29.9779C29.9779 47.3096 30.1565 46.619 30.5135 46.0004L47.8298 16H32.1399C30.7107 16 29.3902 16.7625 28.6757 18.0002L12.5547 45.9292C12.1913 46.5587 12 47.2731 12 48Z" fill="url(#paint8_linear_4303_1230)"/>
+							</g>
+							</g>
+							<defs>
+							<linearGradient id="paint0_linear_4303_1230" x1="48" y1="6.14258" x2="120.248" y2="47.5674" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#0FAFFF"/>
+								<stop offset="1" stop-color="#0078D4"/>
+							</linearGradient>
+							<linearGradient id="paint1_linear_4303_1230" x1="52" y1="6.14258" x2="120.953" y2="42.383" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#0078D4"/>
+								<stop offset="1" stop-color="#004695"/>
+							</linearGradient>
+							<linearGradient id="paint2_linear_4303_1230" x1="56.5938" y1="15.7124" x2="103.043" y2="35.4277" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#9DEAFF"/>
+								<stop offset="1" stop-color="#3BD5FF"/>
+							</linearGradient>
+							<linearGradient id="paint3_linear_4303_1230" x1="-0.000123103" y1="47.9995" x2="39.2727" y2="111.839" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#0078D4"/>
+								<stop offset="1" stop-color="#004695"/>
+							</linearGradient>
+							<linearGradient id="paint4_linear_4303_1230" x1="26.0202" y1="47.9995" x2="22.5976" y2="92.4324" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#0FAFFF"/>
+								<stop offset="1" stop-color="#0078D4"/>
+							</linearGradient>
+							<linearGradient id="paint5_linear_4303_1230" x1="12" y1="51.9813" x2="39.1928" y2="86.7545" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#E6F9FE"/>
+								<stop offset="1" stop-color="#9DEAFF"/>
+							</linearGradient>
+							<linearGradient id="paint6_linear_4303_1230" x1="0" y1="4" x2="39.2735" y2="67.8415" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#3BD5FF"/>
+								<stop offset="1" stop-color="#0FAFFF"/>
+							</linearGradient>
+							<linearGradient id="paint7_linear_4303_1230" x1="26.0211" y1="6.20004" x2="7.04304" y2="35.8557" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#3BD5FF"/>
+								<stop offset="1" stop-color="#0FAFFF"/>
+							</linearGradient>
+							<linearGradient id="paint8_linear_4303_1230" x1="12" y1="16" x2="43.7966" y2="51.6021" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#FEFEFE"/>
+								<stop offset="1" stop-color="#E6F9FE"/>
+							</linearGradient>
+							<clipPath id="clip0_4303_1230">
+							<rect width="96" height="96" fill="white"/>
+							</clipPath>
+							<clipPath id="clip1_4303_1230">
+							<rect width="96" height="96" fill="white"/>
+							</clipPath>
+							</defs>
+						</svg>
+						<span class="tooltip-text">WinUI</span>
 						</span>
 
 						<span class="tooltip">
@@ -382,61 +443,43 @@ import Experience from "./WorkExperience.astro";
 		</section>
 
 		<section id="experience">
-
-			<!-- <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-     			<path d="M22.5048 15.5029V22.5045H21.5045V23.5047H3.50044V22.5045H2.50021V15.5029H9.5018V17.5034H15.5032V15.5029H22.5048Z"/>
-        		<path d="M14.503 15.5029H10.5021V16.5032H14.503V15.5029Z"/>
-     			<path d="M14.503 13.5029H10.5021V14.5032H14.503V13.5029Z"/>
-        		<path d="M22.5048 5.50091V4.50068H16.5034V2.50023H15.5032V1.5H9.50182V2.50023H8.50159V4.50068H2.50023V5.50091H1.5V13.5027H2.50023V14.503H9.50182V12.5025H15.5032V14.503H22.5048V13.5027H23.505V5.50091H22.5048ZM10.502 3.50045H14.503V4.50068H10.502V3.50045Z"/>
-    		</svg> -->
-
-			<h2>Work Experience</h2>
-
-			<p>
-				A suummary of my work achievements
-			</p>
-
 			<Experience />
 		</section>
 
 
-		<section id="projects">
-
-			<!-- <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-				<path d="M1.5 6.50098V21.5044H2.50023V22.5046H3.50045V23.5048H21.5045V22.5046H22.5048V21.5044H23.505V6.50098H1.5ZM9.50182 9.50166H8.50159V10.5019H7.50136V12.5023H6.50114V13.5026H5.50091V15.503H6.50114V16.5033H7.50136V18.5037H8.50159V19.5039H9.50182V20.5042H7.50136V19.5039H6.50114V18.5037H5.50091V16.5033H4.50068V15.503H3.50045V13.5026H4.50068V12.5023H5.50091V10.5019H6.50114V9.50166H7.50136V8.50143H9.50182V9.50166ZM14.503 12.5023H13.5027V16.5033H12.5025V20.5042H11.5023V21.5044H10.502V16.5033H11.5023V13.5026H12.5025V8.50143H13.5027V7.5012H14.503V12.5023ZM21.5045 15.503H20.5043V16.5033H19.5041V18.5037H18.5039V19.5039H17.5036V20.5042H15.5032V19.5039H16.5034V18.5037H17.5036V16.5033H18.5039V15.503H19.5041V13.5026H18.5039V12.5023H17.5036V10.5019H16.5034V9.50166H15.5032V8.50143H17.5036V9.50166H18.5039V10.5019H19.5041V12.5023H20.5043V13.5026H21.5045V15.503Z"/>
-				<path d="M22.5048 3.50045V2.50023H21.5045V1.5H3.50045V2.50023H2.50023V3.50045H1.5V5.50091H23.505V3.50045H22.5048ZM4.50068 4.50068V2.50023H6.50114V4.50068H4.50068ZM7.50136 4.50068V2.50023H9.50182V4.50068H7.50136ZM10.502 4.50068V2.50023H12.5025V4.50068H10.502Z"/>
-			</svg> -->
+		<!-- <section id="projects">
 
 			<h2>Proyectos</h2>
 
-			<p>Only for my inspiration</p>
-
-		</section>
-
-		<section id="aboutMe">
-
-			<h2>About Me</h2>	
 			<p>
-				I'm a software engineer that enjoy developing and designing solutions that impact and contributed in the users life.
+				Only for my inspiration
 			</p>
 
-			<p>
-				
-			</p>
+		</section> -->
 
-
-		</section>
-
-		<script type="module" src="/src/pixel.js"></script>
 	</main>
 
 	<footer>
-		<p>Developing the very best with right amount of fun 🤖</p>
+		<p>Coded and Designed by Alan Morgado</p>
+		<p><em>"Developing the very best with the right amount of fun"</em></p>
 	</footer>
 
 </div>
 
 <style>
+
+	@font-face {
+		font-family: 'Bungee Hairline';
+		src: url('src/assets/fonts/bungeehairline-regular-webfont.woff2') format(woff2);
+		src: url('src/assets/fonts/bungeehairline-regular-webfont.woff') format(woff);
+	}
+
+
+	@font-face {
+		font-family: 'Space Mono';
+		src: url('src/assets/fonts/spacemono-regular-webfont.woff2') format(woff2);
+		src: url('src/assets/fonts/spacemono-regular-webfont.woff') format(woff);
+	}
 
 	html {
 		scroll-behavior: smooth;
@@ -445,7 +488,6 @@ import Experience from "./WorkExperience.astro";
 	html, body {
 		margin: 0;
 		color: var(--text-color);
-		//background-color: var(--background-color);
 		min-height: 100vh;
 		background: radial-gradient(125% 125% at 50% 10%, var(--background-color) 50%, #0a2916 100%);
   		background-attachment: fixed; 
@@ -470,6 +512,10 @@ import Experience from "./WorkExperience.astro";
 		color: var(--text-color);
 	}
 
+	#hero, #experience, #projects {
+		scroll-margin-top: 100px;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-family: var(--font-title);
 	}
@@ -482,6 +528,7 @@ import Experience from "./WorkExperience.astro";
 
 	ul {
 		list-style-image: url("../assets/Polygon.svg");
+		padding-left: 20px;
 	}
 
 	li::marker {
@@ -492,7 +539,6 @@ import Experience from "./WorkExperience.astro";
 		display: flex;
 		flex-flow: row wrap;
 		position: fixed;
-		//top: 20px;
 		width: 100vw;
 		//border: 3px solid rgba(90, 214, 137, 0.5);
 		//border-radius: 20px;
@@ -505,36 +551,6 @@ import Experience from "./WorkExperience.astro";
 		-webkit-backdrop-filter: blur(3px);
 		color: var(--accent-color);
 		z-index: 10;
-	}
-
-	.pixelCanvas {
-		display: flex;
-		flex-flow: row wrap;
-		position: fixed;
-		//top: 20px;
-		//width: 75vw;
-		border: 2px solid rgba(90, 214, 137, 0.5);
-		//border-radius: 20px;
-		justify-self: center;
-		justify-content: space-around;
-		align-items: center;
-		height: 3.5rem;
-		backdrop-filter: blur(3px);
-		-webkit-backdrop-filter: blur(3px);
-		z-index: 10;	
-		background: rgba(90, 214, 137, 0.7);
-
-		/* background: rgba(24, 24, 27, 0.8); */
-
-		/* &:focus-within {
-			outline: 5px auto Highlight;
-			outline: 5px auto -webkit-focus-ring-color;
-		}
-
-		&:where(:hover, :focus-within) {
-			border-color: var(--active-color, var(--fg));
-			transition: border-color 800ms var(--ease-in-out);
-		} */
 	}
 
 	.refs, .links {
@@ -552,11 +568,9 @@ import Experience from "./WorkExperience.astro";
 		box-sizing: border-box;
 		font-family: var(--font-title);
 		font-size: 1rem;
-		//font-size: .825rem;
 		font-weight: 900;
 		transition: filter 0.2s linear;
-		color: #000000;
-		//color: var(--secondary-color);
+		color: var(--secondary-color);
 	}
 
 	.refs a:hover {
@@ -636,7 +650,7 @@ import Experience from "./WorkExperience.astro";
 		font-family: var(--font-text);
 		text-align: left;
 		max-width: 450px;
-		margin-bottom: 5vh; /* PHONE SIZE */
+		margin-bottom: 5vh;
 	}
 
 	.contactSection {
@@ -686,7 +700,6 @@ import Experience from "./WorkExperience.astro";
 		grid-row-gap: 0;
 		justify-items: center;
 		align-items: start;
-		//width: clamp(300px, calc(20rem + 2vw), 550px);
 		width: 300px;
 		height: 800px;
 		box-sizing: border-box;
@@ -791,6 +804,7 @@ import Experience from "./WorkExperience.astro";
 		height: clamp(32px, 4.5rem, 80px);
 		z-index: 1;
 		animation: animate-rotate 10s linear infinite;
+		color: #9b43d6;
 	}
 
 	.locationCountry:hover {
@@ -830,7 +844,6 @@ import Experience from "./WorkExperience.astro";
 		justify-content: center;
 		margin-top: 10px;
 		column-gap: 24px;
-
 	}
 
 	.cardIcons {
@@ -892,6 +905,11 @@ import Experience from "./WorkExperience.astro";
 		border-radius: 9999px;
     }
 
+	footer p {
+		font-family: var(--font-title);
+		text-align: center;
+	}
+
 	@keyframes animate-rotate {
 		0% {
 			transform: rotateY(0deg)
@@ -939,6 +957,10 @@ import Experience from "./WorkExperience.astro";
 	}
 
 	@media (min-width: 600px) {
+
+		.cardHero {
+			animation: animate-card 8s linear infinite;
+		}
 
 		.contactSection {
 			justify-content: start;
@@ -1017,10 +1039,6 @@ import Experience from "./WorkExperience.astro";
 
 	@media (min-width: 1024px) {
 
-		.cardHero {
-			animation: animate-card 8s linear infinite;
-		}
-
 		.description {
 			max-width: 400px;
 		}
@@ -1093,6 +1111,10 @@ import Experience from "./WorkExperience.astro";
 		.cardIcons {
 			width: 24px;
 			height: 24px;
+		}
+
+		.cardIconsSection {
+			column-gap: 16px;
 		}
 	}
 
